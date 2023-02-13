@@ -1,0 +1,125 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning Path Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/path.css' %}" />
+</head>
+
+<body class="bg-player">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 Learning-Path-Header d-flex p-2">
+                <h1 class="flex-fill">Python 3 - Beginner to Advance</h1>
+                <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </span>
+                </button>
+
+                <div class="offcanvas offcanvas-end Learning-Path-Header-offcanvas" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">PATH</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="list-group">
+                                    {% for dict_obj in list_of_dict %}
+                                        <a href="#" id="{{ dict_obj.id }}" title="{{ dict_obj.video_id }}" onclick="item(this)" class="list-group-item list-group-item-action">{{ dict_obj.video_title }}</a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-8 m-auto">
+                <div class="p-4">
+                    <iframe id="videoplayer" src="https://www.youtube-nocookie.com/embed/xHW7KOcqToo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="aspect-ratio: 16 / 9; width: 100%;" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 d-flex">
+                <button class="btn btn-dark" onclick="prev(this)" id="prev" title="0">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5ZM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5Z" />
+                        </svg>
+                    </span>
+                    Prev
+                </button>
+                <h3 class="flex-fill"></h3>
+                <button class="btn btn-dark" onclick="next(this)" id="next" title="2">
+                    Next
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8Zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5Z" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="col-12 mt-3">
+                <h3 id="videotitle">Episode 1 - No experience necessary</h3>
+            </div>
+        </div>
+    </div>
+
+    <!--- mark as complete
+    find "ytp-scrubber-container" position if its width - videoplayer width < 40 px then mark complete
+    1. find ytp-scrubber-container
+    2. get transform: translatex(position);
+    3. get videoplayer width
+    4. compare 2 and 3 if its < 40 px mark complete
+    mark as complete -->
+
+    <script>
+        function play(id) {
+            const domain = "https://www.youtube-nocookie.com/embed/";
+            document.getElementById("videoplayer").src = domain + id.title;
+            document.getElementById("videotitle").innerHTML = "Episode " + id.innerHTML;
+        }
+
+        function item(id) {
+            play(id);
+            document.getElementById("next").title = (Number(id.id) + 1).toString();
+            document.getElementById("prev").title = (Number(id.id) - 1).toString();
+        }
+
+        function next(id) {
+            let target = document.getElementById(id.title);
+            let next = document.getElementById("next")
+            if (next.title != "62") {
+                next.title = (Number(id.title) + 1).toString();
+                document.getElementById("prev").title = (Number(id.title) - 2).toString();
+                play(target);
+            }
+        }
+
+        function prev(id) {
+            let target = document.getElementById(id.title);
+            let prev = document.getElementById("prev")
+            if (prev.title != "0") {
+                prev.title = (Number(id.title) - 1).toString();
+                document.getElementById("next").title = (Number(id.title) + 2).toString();
+                play(target);
+            }
+        }
+
+        setInterval(function() {
+            const element = document.getElementsByClassName(".ytp-scrubber-container")[0];
+            console.log(element)
+        }, 1000);
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
