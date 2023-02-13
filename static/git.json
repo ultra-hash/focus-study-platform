@@ -1,0 +1,65 @@
+{
+    "path_name" : "Git for Beginners",
+    "data" : [
+        {
+            "id": "1",
+            "video_id": "DuQKrTweWA4",
+            "video_title": "1 - Git tutorial for beginners. What is Git?"
+        },
+        {
+            "id": "2",
+            "video_id": "F2DBSH2VoHQ",
+            "video_title": "2 - How to use Git inside of VSCode - 2020"
+        },
+        {
+            "id": "3",
+            "video_id": "JZ9E54hdWE8",
+            "video_title": "3 - The basics of Git. Learn the basic Git commands."
+        },
+        {
+            "id": "4",
+            "video_id": "qY6IooRlNGI",
+            "video_title": "4 - Git branches tutorial. How to use Git branches."
+        },
+        {
+            "id": "5",
+            "video_id": "MIFQwHlEI9o",
+            "video_title": "5 - How to undo your changes in Git? Git reset"
+        },
+        {
+            "id": "6",
+            "video_id": "RVia18FNHYo",
+            "video_title": "6 - Git config tutorial. Where is the Git config file?"
+        },
+        {
+            "id": "7",
+            "video_id": "xNVM5UxlFSA",
+            "video_title": "7 - How to resolve merge conflicts in Git"
+        },
+        {
+            "id": "8",
+            "video_id": "jJQvP9rWpZM",
+            "video_title": "8 - How to resolve Git conflicts using the diff3 format"
+        },
+        {
+            "id": "9",
+            "video_id": "kMvLn8WcAII",
+            "video_title": "9 - Git rebase tutorial. Rebase vs Merge"
+        },
+        {
+            "id": "10",
+            "video_id": "wIY824wWpu4",
+            "video_title": "10 - Git cherry pick tutorial. How to use git cherry-pick."
+        },
+        {
+            "id": "11",
+            "video_id": "-aPoRU5W8lA",
+            "video_title": "11 - Git stash tutorial. How to save changes for later in git."
+        },
+        {
+            "id": "12",
+            "video_id": "D7JJnLFOn4A",
+            "video_title": "12 - Git bisect tutorial. How to find a bad bug commit."
+        }
+    ]
+}

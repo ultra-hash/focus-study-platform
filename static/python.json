@@ -1,0 +1,310 @@
+{
+    "path_name" : "Python 3 - Beginner to Advance",
+    "data" : [
+        {
+            "id": "1",
+            "video_id": "xHW7KOcqToo",
+            "video_title": "1 - No experience necessary"
+        },
+        {
+            "id": "2",
+            "video_id": "ToDQwPk71EU",
+            "video_title": "2 - Variables are something that changes"
+        },
+        {
+            "id": "3",
+            "video_id": "HaoFVF_XSKM",
+            "video_title": "3 - Comments, Boolean and Comparisons"
+        },
+        {
+            "id": "4",
+            "video_id": "5Llv-SzbnXM",
+            "video_title": "4 - Numbers and basic numeric operations"
+        },
+        {
+            "id": "5",
+            "video_id": "E620yiMMtns",
+            "video_title": "5 - What are strings"
+        },
+        {
+            "id": "6",
+            "video_id": "IN98lMOORWg",
+            "video_title": "6 - Basic string operations"
+        },
+        {
+            "id": "7",
+            "video_id": "D8FZYptJySU",
+            "video_title": "7 - Lists"
+        },
+        {
+            "id": "8",
+            "video_id": "BqWNiv5XpJ8",
+            "video_title": "8 - Sets"
+        },
+        {
+            "id": "9",
+            "video_id": "o_N3iILam6Y",
+            "video_title": "9 - Tuples, fast and readonly"
+        },
+        {
+            "id": "10",
+            "video_id": "V-y49b95Lv4",
+            "video_title": "10 - Dictionary, indexed with keys"
+        },
+        {
+            "id": "11",
+            "video_id": "AOwkxR2vtSo",
+            "video_title": "11 - Flow control with IF, ELSE and ELIF"
+        },
+        {
+            "id": "12",
+            "video_id": "huj3yAjL68k",
+            "video_title": "12 - Flow control with While loops"
+        },
+        {
+            "id": "13",
+            "video_id": "2N1Y9PnlX1w",
+            "video_title": "13 - For loop and range"
+        },
+        {
+            "id": "14",
+            "video_id": "Nbgh2e_gpPg",
+            "video_title": "14 - Simple app, paint calculator"
+        },
+        {
+            "id": "15",
+            "video_id": "8tAcTFcsoH8",
+            "video_title": "15 - Intro to functions"
+        },
+        {
+            "id": "16",
+            "video_id": "03jJ6ogYRV0",
+            "video_title": "16 - Functions and scope"
+        },
+        {
+            "id": "17",
+            "video_id": "Yg5503jlovs",
+            "video_title": "17 - Functions in depth"
+        },
+        {
+            "id": "18",
+            "video_id": "_kNL5NcOqkg",
+            "video_title": "18 - Packing and unpacking data"
+        },
+        {
+            "id": "19",
+            "video_id": "oOmJUCVsBZw",
+            "video_title": "19 - Functions and arguments"
+        },
+        {
+            "id": "20",
+            "video_id": "HctYSlrFw4w",
+            "video_title": "20 - Global keyword"
+        },
+        {
+            "id": "21",
+            "video_id": "hTbPkfWYgtY",
+            "video_title": "21 - Walrus operator"
+        },
+        {
+            "id": "22",
+            "video_id": "no5iJqjvwn4",
+            "video_title": "22 - Navigating folders"
+        },
+        {
+            "id": "23",
+            "video_id": "nwpgOkY69MM",
+            "video_title": "23 - Reading a text file"
+        },
+        {
+            "id": "24",
+            "video_id": "XLTW6JLb2j8",
+            "video_title": "24 - Write a text file"
+        },
+        {
+            "id": "25",
+            "video_id": "s1PvPvDWG08",
+            "video_title": "25 - Working with binary files"
+        },
+        {
+            "id": "26",
+            "video_id": "xZt4hBERULo",
+            "video_title": "26 - Working with JSON"
+        },
+        {
+            "id": "27",
+            "video_id": "-xCuj-mIgHo",
+            "video_title": "27 - Imports"
+        },
+        {
+            "id": "28",
+            "video_id": "Iceo4teim-M",
+            "video_title": "28 - Main function"
+        },
+        {
+            "id": "29",
+            "video_id": "-311FD6GAIM",
+            "video_title": "29 - Import madness"
+        },
+        {
+            "id": "30",
+            "video_id": "ZuiKNoxZBKQ",
+            "video_title": "30 - Introduction to classes"
+        },
+        {
+            "id": "31",
+            "video_id": "WD_UeQcqGZs",
+            "video_title": "31 - Class Inheritance"
+        },
+        {
+            "id": "32",
+            "video_id": "3hp8Jsp3BKw",
+            "video_title": "32 - Multiple Inheritance"
+        },
+        {
+            "id": "33",
+            "video_id": "UQslB5ElFE4",
+            "video_title": "33 - Pet Shop Application"
+        },
+        {
+            "id": "34",
+            "video_id": "LDmBFw55srk",
+            "video_title": "34 - The undesrcore"
+        },
+        {
+            "id": "35",
+            "video_id": "QpIhm1Z_lxU",
+            "video_title": "35 - Decorators"
+        },
+        {
+            "id": "36",
+            "video_id": "pLqMr0R_bCk",
+            "video_title": "36 - Iterators"
+        },
+        {
+            "id": "37",
+            "video_id": "MHFvPE4b5I0",
+            "video_title": "37 - Exceptions"
+        },
+        {
+            "id": "38",
+            "video_id": "0XpGqZASU2k",
+            "video_title": "38 - Pickle"
+        },
+        {
+            "id": "39",
+            "video_id": "6v_C0u5Pm38",
+            "video_title": "39 - Map function"
+        },
+        {
+            "id": "40",
+            "video_id": "P4lkOFgmHoo",
+            "video_title": "40 - Filter function"
+        },
+        {
+            "id": "41",
+            "video_id": "Io1Uo6yT35A",
+            "video_title": "41 - Logging basics"
+        },
+        {
+            "id": "42",
+            "video_id": "x1LQ4E8VpYI",
+            "video_title": "42 - Simple app, Dir Stats"
+        },
+        {
+            "id": "43",
+            "video_id": "5NJ9cc0dnCM",
+            "video_title": "43 - Timers, intro to threads"
+        },
+        {
+            "id": "44",
+            "video_id": "vBHsgu9RK-Y",
+            "video_title": "44 - Thread basics"
+        },
+        {
+            "id": "45",
+            "video_id": "BagTTT7l1pU",
+            "video_title": "45 - Thread Pools"
+        },
+        {
+            "id": "46",
+            "video_id": "johW9wwt3wc",
+            "video_title": "46 - Thread Locking"
+        },
+        {
+            "id": "47",
+            "video_id": "ZkMu-61Q3vI",
+            "video_title": "47 - Daemon threads"
+        },
+        {
+            "id": "48",
+            "video_id": "wbAjGeM5veo",
+            "video_title": "48 - Queues and Futures"
+        },
+        {
+            "id": "49",
+            "video_id": "t_kFYn9F6QU",
+            "video_title": "49 - Intro to Multiprocessing"
+        },
+        {
+            "id": "50",
+            "video_id": "2TwZMGynssU",
+            "video_title": "50 - Multiprocess starting and stopping"
+        },
+        {
+            "id": "51",
+            "video_id": "hLk8CZCn-Zs",
+            "video_title": "51 - Multiprocess pool"
+        },
+        {
+            "id": "52",
+            "video_id": "gC3ZJlQpMUU",
+            "video_title": "52 - Async code"
+        },
+        {
+            "id": "53",
+            "video_id": "M02gTiPWEFM",
+            "video_title": "53 - Producer and consumer"
+        },
+        {
+            "id": "54",
+            "video_id": "IynV6Y80vws",
+            "video_title": "54 - Communicating with processes"
+        },
+        {
+            "id": "55",
+            "video_id": "APsdIrHdD0w",
+            "video_title": "55 - Basic TCP Client"
+        },
+        {
+            "id": "56",
+            "video_id": "4Xe49jl5z5M",
+            "video_title": "56 - Basic TCP Server"
+        },
+        {
+            "id": "57",
+            "video_id": "8VTHb5xcixw",
+            "video_title": "57 - Determine port availability"
+        },
+        {
+            "id": "58",
+            "video_id": "5yVdN5KmdzY",
+            "video_title": "58 - UDP Sockets"
+        },
+        {
+            "id": "59",
+            "video_id": "2Oq4FQSr21I",
+            "video_title": "59 - Blocking vs Non Blocking Sockets"
+        },
+        {
+            "id": "60",
+            "video_id": "M2plMFZ6Q6s",
+            "video_title": "60 - Example App: TCP Echo Server"
+        },
+        {
+            "id": "61",
+            "video_id": "fU9T-DgJgVc",
+            "video_title": "61 - DateTime is super easy to use"
+        }
+    ]
+}
