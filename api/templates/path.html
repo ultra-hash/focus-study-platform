@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 Learning-Path-Header d-flex p-2">
-                <h1 class="flex-fill">Python 3 - Beginner to Advance</h1>
+                <h1 class="flex-fill">{{ name_of_the_path }}</h1>
                 <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -32,8 +32,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="list-group">
-                                    {% for dict_obj in list_of_dict %}
-                                        <a href="#" id="{{ dict_obj.id }}" title="{{ dict_obj.video_id }}" onclick="item(this)" class="list-group-item list-group-item-action">{{ dict_obj.video_title }}</a>
+                                    {% for video in list_of_videos %}
+                                        <a href="#" id="{{ video.id }}" title="{{ video.video_id }}" onclick="item(this)" class="list-group-item list-group-item-action">{{ video.video_title }}</a>
                                     {% endfor %}
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
 
             <div class="col-12 col-md-8 m-auto">
                 <div class="p-4">
-                    <iframe id="videoplayer" src="https://www.youtube-nocookie.com/embed/xHW7KOcqToo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="aspect-ratio: 16 / 9; width: 100%;" allowfullscreen></iframe>
+                    <iframe id="videoplayer" src="https://www.youtube-nocookie.com/embed/{{ list_of_videos.0.video_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="aspect-ratio: 16 / 9; width: 100%;" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-12 d-flex">
@@ -67,7 +67,7 @@
                 </button>
             </div>
             <div class="col-12 mt-3">
-                <h3 id="videotitle">Episode 1 - No experience necessary</h3>
+                <h3 id="videotitle">Episode {{ list_of_videos.0.video_title }}</h3>
             </div>
         </div>
     </div>
@@ -96,7 +96,7 @@
         function next(id) {
             let target = document.getElementById(id.title);
             let next = document.getElementById("next")
-            if (next.title != "62") {
+            if (Number(next.title) <= Number("{{ videos_length_plus_1 }}")) {
                 next.title = (Number(id.title) + 1).toString();
                 document.getElementById("prev").title = (Number(id.title) - 2).toString();
                 play(target);
@@ -106,7 +106,7 @@
         function prev(id) {
             let target = document.getElementById(id.title);
             let prev = document.getElementById("prev")
-            if (prev.title != "0") {
+            if (Number(prev.title) > 0) {
                 prev.title = (Number(id.title) - 1).toString();
                 document.getElementById("next").title = (Number(id.title) + 2).toString();
                 play(target);

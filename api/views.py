@@ -11,6 +11,9 @@ def path(reqest, path_name):
     if path_name == "python" or path_name == "git":
         with open(f'{STATICFILES_DIRS[0]}/{path_name}.json', 'r') as file:
             json_data = json.load(file)
-        return render(reqest, "path.html", {"list_of_dict": json_data})
+
+        name_of_the_path = json_data['path_name']
+        videos_data = json_data['data']
+        return render(reqest, "path.html", {"list_of_videos": videos_data, "name_of_the_path": name_of_the_path, "videos_length_plus_1": len(videos_data)})
     else:
         return HttpResponse("<h1>404 Page Not Found</h1>")
