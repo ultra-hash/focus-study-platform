@@ -1,21 +1,47 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/path.css' %}" />
     <title>Document</title>
 </head>
-<body>
-    <div>
-        <h1> Welcome </h1>
-        <p> Learning Paths </p>
-        <a href="{% url 'api.path' 'python' %}">
-            <button> Python </button>
-        </a>
-        <a href="{% url 'api.path' 'git' %}">
-            <button> Git </button>
-        </a>
+<body class="bg-player">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">FSP v_0.0.1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav m-auto">
+                    <a class="nav-link" aria-current="page" href="{% url 'api.home' %}">Home</a>
+                    <a class="nav-link" href="/path/python/">Python</a>
+                    <a class="nav-link" href="/path/git/">Git</a>
+                    <a class="nav-link" href="/path/django/">Django</a>
+                    <a class="nav-link" href="/path/djangorestframework/">Django Rest Framework</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 mt-5">
+                <h1>Welcome Aspiring Learner</h1>
+                <h5>Distraction Free Learning Path</h5>
+            </div>
+            <div class="col-12 mt-5">
+                <a href="{% url 'api.path' 'python' %}" class="btn btn-success"> Python </a>
+                <a href="{% url 'api.path' 'git' %}" class="btn btn-primary"> Git </a>
+                <a href="{% url 'api.path' 'django' %}" class="btn btn-info"> Django </a>
+                <a href="{% url 'api.path' 'djangorestframework' %}" class="btn btn-danger"> Django Rest Framework </a>
+            </div>
+        </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
