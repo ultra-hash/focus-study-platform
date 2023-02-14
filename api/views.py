@@ -8,7 +8,8 @@ def home(request):
     return render(request, 'home.html', {})
 
 def path(reqest, path_name):
-    if path_name == "python" or path_name == "git":
+    path_list = ['git', 'python', 'django']
+    if path_name in path_list:
         with open(f'{STATICFILES_DIRS[0]}/{path_name}.json', 'r') as file:
             json_data = json.load(file)
 

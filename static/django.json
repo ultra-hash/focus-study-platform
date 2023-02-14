@@ -1,0 +1,455 @@
+{
+    "path_name" : "Try Django 3.2 - Python Web Development Tutorial Series",
+    "data" : [
+        {
+            "id": 1,
+            "video_id": "SlHBNXW1rTk",
+            "video_title": "1 - Welcome to Try Django 3.2 - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 2,
+            "video_id": "zf1sDqym8ik",
+            "video_title": "2 - Demo after 73 Parts - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 3,
+            "video_id": "GsIGdRaUjck",
+            "video_title": "3 - Requirements - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 4,
+            "video_id": "PS903MeNDJk",
+            "video_title": "4 - Python & Python Virtual Environment Setup on macOS - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 5,
+            "video_id": "5agh7ucYKB4",
+            "video_title": "5 - Python & Python Virtual Environments Setup on Windows - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 6,
+            "video_id": "BAoDdYNKlAw",
+            "video_title": "6 - Setup a Django Project- Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 7,
+            "video_id": "Wfu5dPbiyKA",
+            "video_title": "7 - Setup Django on VS Code - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 8,
+            "video_id": "NsvlsLOgXlY",
+            "video_title": "8 - Databases & Web Pages - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 9,
+            "video_id": "zgQ4WFGMgRM",
+            "video_title": "9 - Open, Activate, & Run Dev Server - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 10,
+            "video_id": "znbdYZU-zRE",
+            "video_title": "10 - Your first web page - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 11,
+            "video_id": "kd_c99cU0SM",
+            "video_title": "11 - Handling a url route - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 12,
+            "video_id": "IhbTOlGWT_0",
+            "video_title": "12 - Enriching a View with Data - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 13,
+            "video_id": "nuwa-9Uuw3E",
+            "video_title": "13 - Our first database model - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 14,
+            "video_id": "D5OKz6aYWr4",
+            "video_title": "14 - INSTALLED_APPS & Migrations - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 15,
+            "video_id": "YrzMigmLFD8",
+            "video_title": "15 - Writing & Reading data in Python Shell - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 16,
+            "video_id": "CLpUSFKrXw0",
+            "video_title": "16 - Rendering Data from our Database in a View - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 17,
+            "video_id": "4uNeO5Hw9FE",
+            "video_title": "17 - Django Templates Basics - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 18,
+            "video_id": "YSlCrUZGnN0",
+            "video_title": "18 - Listing Data in Views & Templates - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 19,
+            "video_id": "SZgcwhLTK_k",
+            "video_title": "19 - Dynamic URL Routing - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 20,
+            "video_id": "Y2oDKZ7tqn4",
+            "video_title": "20 - Super Users, Staff Users & the Django Admin - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 21,
+            "video_id": "d1kU_rXX-pA",
+            "video_title": "21 - Register Model in the Admin - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 22,
+            "video_id": "Nz5F60OxOKI",
+            "video_title": "22 - Search Form & Request Data - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 23,
+            "video_id": "I1XHYphBLKg",
+            "video_title": "23 - Basic HTML Form in Django - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 24,
+            "video_id": "Pc4SF7bSkMs",
+            "video_title": "24 - Create a Login View to Authenticate Users - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 25,
+            "video_id": "66abhpAxMgQ",
+            "video_title": "25 - Django Logout View - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 26,
+            "video_id": "ws811svYIKo",
+            "video_title": "26 - Creating a User Required - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 27,
+            "video_id": "QEhmd_hnjKU",
+            "video_title": "27 - Basic Django Forms - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 28,
+            "video_id": "rKXVuG4axTg",
+            "video_title": "28 - Model Form for Article Model - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 29,
+            "video_id": "j5ejoA5eenQ",
+            "video_title": "29 - Register a User via built in Model Form - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 30,
+            "video_id": "FBkeVk6km3U",
+            "video_title": "30 - Login via Django AuthenticationForm - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 31,
+            "video_id": "rKiLd40HIjc",
+            "video_title": "31 - Environment Variables & dotenv - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 32,
+            "video_id": "M9aCNYM_4vQ",
+            "video_title": "32 - Prepare Django for DigitalOcean App Platform - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 33,
+            "video_id": "o7mwGmPq51Y",
+            "video_title": "33 - Managing Code with Git & Github - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 34,
+            "video_id": "FjWbMNw6Wk0",
+            "video_title": "34 - Deploy Django to Digital Ocean App Platform - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 35,
+            "video_id": "6I_haJimhPY",
+            "video_title": "35 - Automated Test Basics - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 36,
+            "video_id": "Iw7xG92YDZA",
+            "video_title": "36 - Making Changes to Models & Fields - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 37,
+            "video_id": "fHImRsDaP0M",
+            "video_title": "37 - SlugField & Override Save Method - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 38,
+            "video_id": "yD33eKfAOg8",
+            "video_title": "38 - Django pre save & post save signals - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 39,
+            "video_id": "W1Kp7GP0950",
+            "video_title": "39 - Django QuerySets & Lookups - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 40,
+            "video_id": "iWie_2I1_9M",
+            "video_title": "40 - Auto Generate Slugs with Recursion - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 41,
+            "video_id": "tI8E_26y5kY",
+            "video_title": "41 - Testing Article Model Part 1 - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 42,
+            "video_id": "tQrGR7a-lMU",
+            "video_title": "42 - Testing Article Model Part 2 - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 43,
+            "video_id": "Nlq5GQkNWUs",
+            "video_title": "43 - Slugs in Dynamic Urls - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 44,
+            "video_id": "b42B-xli-vQ",
+            "video_title": "44 - get absolute url - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 45,
+            "video_id": "rm2YTMc2s10",
+            "video_title": "45 - Django URLs Reverse - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 46,
+            "video_id": "H_EWDGvo99s",
+            "video_title": "46 - Complex Search using Django Q Lookups - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 47,
+            "video_id": "3qViDQ6SUC8",
+            "video_title": "47 - Model Managers & Custom QuerySets for Search - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 48,
+            "video_id": "zhBWSmlaXf0",
+            "video_title": "48 - Test Article Search Manager - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 49,
+            "video_id": "3VTeia-AoLo",
+            "video_title": "49 - Basic Data Connection with Foreign Keys - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 50,
+            "video_id": "dxbv_S12QLY",
+            "video_title": "50 - User Generated Content & The Recipes App - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 51,
+            "video_id": "hpo18rVZhG4",
+            "video_title": "51 - Admin Inlines for Foreign Keys - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 52,
+            "video_id": "c48rGz1EfFk",
+            "video_title": "52 - Understanding Relationships between Models via Tests - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 53,
+            "video_id": "HC3a7wfQdXo",
+            "video_title": "53 - Custom Validation for Unit Measurements - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 54,
+            "video_id": "HvTvw4EudpY",
+            "video_title": "54 - Test Custom Model Validation Exception - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 55,
+            "video_id": "cP5b7PSALcs",
+            "video_title": "55 - Auto Set Quantity as a Float - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 56,
+            "video_id": "jIKPt5g9k_k",
+            "video_title": "56 - Use Python Pint to Convert Units - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 57,
+            "video_id": "ncjUOq7ohrs",
+            "video_title": "57 - CRUD Views for Recipe Model - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 58,
+            "video_id": "icVke1tJ6aI",
+            "video_title": "58 - Django urls, includes, and app name - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 59,
+            "video_id": "aStLddXMJrk",
+            "video_title": "59 - CRUD Templates for the Recipes App - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 60,
+            "video_id": "PICYTJqj__o",
+            "video_title": "60 - Django 2 Forms, 1 View - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 61,
+            "video_id": "6wHx-X1tEiY",
+            "video_title": "61 - Manage QuerySets with Django Formsets + modelformset factory - Python & Django Tutorial Series"
+        },
+        {
+            "id": 62,
+            "video_id": "quJzUzCs6Q0",
+            "video_title": "62 - Customizing Form Fields, Widgets, Placeholders, & CSS - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 63,
+            "video_id": "824JTxCZ3FU",
+            "video_title": "63 - Rendering Form Fields & More in Templates - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 64,
+            "video_id": "s3T-w2jhDHE",
+            "video_title": "64 - Dynamic New Forms in a Django Formset via JavaScript - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 65,
+            "video_id": "h9sxlkdMTeA",
+            "video_title": "65 - Dynamic New Forms in Django Formset via HTMX - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 66,
+            "video_id": "0Vh_g-iDCcA",
+            "video_title": "66 - HTMX, JavaScript & Django Fixtures - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 67,
+            "video_id": "AzO7oWspZw4",
+            "video_title": "67 - HMTX & JavaScript Working Together - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 68,
+            "video_id": "slg1WGOO0u0",
+            "video_title": "68 - The HTMX Approach to Editing QuerySets - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 69,
+            "video_id": "orUuVcKUPqE",
+            "video_title": "69 - Auto Save with HTMX & Django - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 70,
+            "video_id": "tkQfZnt2mV8",
+            "video_title": "70 - HTMX Response Header - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 71,
+            "video_id": "ggo4Vt1lbgA",
+            "video_title": "71 - HTMX Typeahead & Search in Django - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 72,
+            "video_id": "j_kG8dE4VSk",
+            "video_title": "72 - Model Object Delete View in Django - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 73,
+            "video_id": "rHE4369JXEg",
+            "video_title": "73 - Deleting Objects with HTMX - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 74,
+            "video_id": "QTb5fK1SiFU",
+            "video_title": "74 - Static Files in Development - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 75,
+            "video_id": "AeCZvXZn5dg",
+            "video_title": "75 - Django Static Files in Production on DigitalOcean Spaces - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 76,
+            "video_id": "psOQBoAmMhA",
+            "video_title": "76 - Upload Images in Django Models - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 77,
+            "video_id": "kccMxm2pRp4",
+            "video_title": "77 - View for Handling File or Image Uploads - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 78,
+            "video_id": "-8n32KdxL28",
+            "video_title": "78 - Uploading Files with Django & HTMX - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 79,
+            "video_id": "SRNkJKdDJAM",
+            "video_title": "79 - Microservice API for Text Extraction from Uploaded Images - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 80,
+            "video_id": "bHN5p43zk-w",
+            "video_title": "80 - Deploy Django to Do App Platform via doctl CLI - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 81,
+            "video_id": "fxAIta6qdys",
+            "video_title": "81- CI & CD For Django + Github + DigitalOcean - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 82,
+            "video_id": "R1qzC65NLFk",
+            "video_title": "82 - Automating Collectstatic with Github Actions - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 83,
+            "video_id": "hvV1PHYN1yM",
+            "video_title": "83 - Parsing OCR Microservice Results - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 84,
+            "video_id": "ORKqTwCsNeM",
+            "video_title": "84 - Microservice to Database - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 85,
+            "video_id": "jxIHCednMO0",
+            "video_title": "85 - Adding Bootstrap & the tip of the Bootstrap Iceberg - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 86,
+            "video_id": "CqFRh2T2nfg",
+            "video_title": "86 - Creating the Meal Queue - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 87,
+            "video_id": "OfjEx28ukgY",
+            "video_title": "87 - Toggle Recipes into Meal Queue & Test - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 88,
+            "video_id": "alIPGkEur2c",
+            "video_title": "88 - Meal Queue Toggle View - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 89,
+            "video_id": "U5cLDWtRudY",
+            "video_title": "89 - Calculate Meal Queue Ingredient Totals - Python & Django 3.2 Tutorial Series"
+        },
+        {
+            "id": 90,
+            "video_id": "TxOX_p1EWJQ",
+            "video_title": "90 - Calculation Function & Custom Signals - Python & Django 3.2 Tutorial Series"
+        }
+    ]
+}
