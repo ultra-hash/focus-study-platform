@@ -1,0 +1,370 @@
+{
+    "path_name" : "Build a Backend REST API with Python & Django (Beginner Course)",
+    "data" : [
+        {
+            "id": 1,
+            "video_id": "mNwAyMmGKoI",
+            "video_title": "Build a Backend REST API with Python & Django (Beginner Course)"
+        },
+        {
+            "id": 2,
+            "video_id": "mNBMW11dFfk",
+            "video_title": "01 Introduction"
+        },
+        {
+            "id": 3,
+            "video_id": "hsgk6Occa7s",
+            "video_title": "02 How to take this course"
+        },
+        {
+            "id": 4,
+            "video_id": "RQsqBWqe4kg",
+            "video_title": "03 Technologies used"
+        },
+        {
+            "id": 5,
+            "video_id": "_BcRq3Xw1UA",
+            "video_title": "04 Installing Git, VirtualBox, Vagrant, Atom and ModHeader"
+        },
+        {
+            "id": 6,
+            "video_id": "_LCDmNzFudo",
+            "video_title": "05 Creating a workspace"
+        },
+        {
+            "id": 7,
+            "video_id": "hHpNCZYWHv4",
+            "video_title": "06 Creating a Git project"
+        },
+        {
+            "id": 8,
+            "video_id": "8Bt8uJgS2Nw",
+            "video_title": "07 Creating a Vagrantfile"
+        },
+        {
+            "id": 9,
+            "video_id": "Ib1cyZCiKCs",
+            "video_title": "08 Configuring our Vagrant Box"
+        },
+        {
+            "id": 10,
+            "video_id": "EErdJxuOkf0",
+            "video_title": "09 Running and connecting to our dev server"
+        },
+        {
+            "id": 11,
+            "video_id": "At9Z8JpC--Q",
+            "video_title": "10 Running a hello world script"
+        },
+        {
+            "id": 12,
+            "video_id": "A4zqqjLhDgU",
+            "video_title": "11 Create Python Virtual Environment"
+        },
+        {
+            "id": 13,
+            "video_id": "pgxJEvrDvZc",
+            "video_title": "12 Install required Python packages"
+        },
+        {
+            "id": 14,
+            "video_id": "iNQ0gNECeH4",
+            "video_title": "13 Create a new Django project & app"
+        },
+        {
+            "id": 15,
+            "video_id": "0522q6IvvMc",
+            "video_title": "14 Enable our app in the Django settings file"
+        },
+        {
+            "id": 16,
+            "video_id": "-gWL514FLpk",
+            "video_title": "15 Saving our requirements"
+        },
+        {
+            "id": 17,
+            "video_id": "fdnV5HKAWFc",
+            "video_title": "16 Test and commit our changes"
+        },
+        {
+            "id": 18,
+            "video_id": "PkgS5EF5zQs",
+            "video_title": "17 What are Django models?"
+        },
+        {
+            "id": 19,
+            "video_id": "vYVTps5hJWQ",
+            "video_title": "18 Create our user database model"
+        },
+        {
+            "id": 20,
+            "video_id": "iRDtJHYz55M",
+            "video_title": "19 Add a user model manager"
+        },
+        {
+            "id": 21,
+            "video_id": "vsOksnJzA60",
+            "video_title": "20 Set our custom user model"
+        },
+        {
+            "id": 22,
+            "video_id": "RbMf3Sx_VB0",
+            "video_title": "21 Create migrations and sync DB"
+        },
+        {
+            "id": 23,
+            "video_id": "UzxGqaLIEA0",
+            "video_title": "22 Creating a superuser"
+        },
+        {
+            "id": 24,
+            "video_id": "6ecEEsIdsAY",
+            "video_title": "23 Enable Django Admin"
+        },
+        {
+            "id": 25,
+            "video_id": "ZX82ihndtTA",
+            "video_title": "24 Test Django Admin"
+        },
+        {
+            "id": 26,
+            "video_id": "5n1468qYoHY",
+            "video_title": "25 What is an APIView?"
+        },
+        {
+            "id": 27,
+            "video_id": "yXytwz42E50",
+            "video_title": "26 Create first APIView"
+        },
+        {
+            "id": 28,
+            "video_id": "1nC_JtresZ4",
+            "video_title": "27 Configure view URLs"
+        },
+        {
+            "id": 29,
+            "video_id": "_JFTIYad6xM",
+            "video_title": "28 Testing our APIView"
+        },
+        {
+            "id": 30,
+            "video_id": "wSnNntmN1oE",
+            "video_title": "29 Create a serializer"
+        },
+        {
+            "id": 31,
+            "video_id": "GF7eobc8CJ4",
+            "video_title": "30 Add POST method to APIView"
+        },
+        {
+            "id": 32,
+            "video_id": "ec92QI5H7RE",
+            "video_title": "31 Test POST function"
+        },
+        {
+            "id": 33,
+            "video_id": "K3hSaTCglwM",
+            "video_title": "32 Add PUT, PATCH and DELETE methods"
+        },
+        {
+            "id": 34,
+            "video_id": "NmZT3Xm1848",
+            "video_title": "33 Test the PUT, PATCH and DELETE methods"
+        },
+        {
+            "id": 35,
+            "video_id": "lIM8wZvwAWE",
+            "video_title": "34 What is a ViewSet"
+        },
+        {
+            "id": 36,
+            "video_id": "fWFNWUzr2Uo",
+            "video_title": "35 Create a simple ViewSet"
+        },
+        {
+            "id": 37,
+            "video_id": "JjqFwS7hGTM",
+            "video_title": "36 Add URL router"
+        },
+        {
+            "id": 38,
+            "video_id": "_O7psMEyFoQ",
+            "video_title": "37 Testing our ViewSet"
+        },
+        {
+            "id": 39,
+            "video_id": "AJHNSrWGAao",
+            "video_title": "38 Add create, retrieve, update, partial update and destroy functions"
+        },
+        {
+            "id": 40,
+            "video_id": "BbnNUPh8GiI",
+            "video_title": "39 Test ViewSet"
+        },
+        {
+            "id": 41,
+            "video_id": "3j-ALBELGOI",
+            "video_title": "40 Plan our profiles API"
+        },
+        {
+            "id": 42,
+            "video_id": "Wo0AXv7B0iE",
+            "video_title": "41 Create user profile serializer"
+        },
+        {
+            "id": 43,
+            "video_id": "OegkGmvy5ro",
+            "video_title": "42 Create profiles ViewSet"
+        },
+        {
+            "id": 44,
+            "video_id": "Zx_tnolzGS8",
+            "video_title": "43 Register profile ViewSet with the URL router"
+        },
+        {
+            "id": 45,
+            "video_id": "FYZA6vNbgtM",
+            "video_title": "44 Test creating a profile"
+        },
+        {
+            "id": 46,
+            "video_id": "TUjMfaxKsrs",
+            "video_title": "45 Create permission class"
+        },
+        {
+            "id": 47,
+            "video_id": "Ix4_fsF8Ld8",
+            "video_title": "46 Add authentication and permissions to ViewSet"
+        },
+        {
+            "id": 48,
+            "video_id": "Ful23wLBtwQ",
+            "video_title": "47 Test new permissions"
+        },
+        {
+            "id": 49,
+            "video_id": "3UW21Lc5baE",
+            "video_title": "48 Add search profiles feature"
+        },
+        {
+            "id": 50,
+            "video_id": "8FdkggIrfr0",
+            "video_title": "49 Test searching profiles"
+        },
+        {
+            "id": 51,
+            "video_id": "Y9DDWvKRi-M",
+            "video_title": "50 Create login API ViewSet"
+        },
+        {
+            "id": 52,
+            "video_id": "SVbw3D_zBac",
+            "video_title": "51 Test login API"
+        },
+        {
+            "id": 53,
+            "video_id": "ItRrY8tbbIc",
+            "video_title": "52 Set token header using ModHeader extension"
+        },
+        {
+            "id": 54,
+            "video_id": "pagMWeta8Bk",
+            "video_title": "53 Plan profile feed API"
+        },
+        {
+            "id": 55,
+            "video_id": "sXtwGXeZV40",
+            "video_title": "54 Add new Model Item"
+        },
+        {
+            "id": 56,
+            "video_id": "k6vnr1Y7OSo",
+            "video_title": "55 Create and run model migration"
+        },
+        {
+            "id": 57,
+            "video_id": "qg8ukVLV-tc",
+            "video_title": "56 Add profile feed model to admin"
+        },
+        {
+            "id": 58,
+            "video_id": "G4eWhvRbyVQ",
+            "video_title": "57 Create profile feed item serializer"
+        },
+        {
+            "id": 59,
+            "video_id": "3ZliEA1oxQ4",
+            "video_title": "58 Create ViewSet for our profile feed item"
+        },
+        {
+            "id": 60,
+            "video_id": "Yr3r5lFQIN0",
+            "video_title": "59 Test Feed API"
+        },
+        {
+            "id": 61,
+            "video_id": "NVlhWDjgP_8",
+            "video_title": "60 Add permissions for feed API"
+        },
+        {
+            "id": 62,
+            "video_id": "AWqwaJpJsFY",
+            "video_title": "61 Test feed API permissions"
+        },
+        {
+            "id": 63,
+            "video_id": "HZv_ApToDcY",
+            "video_title": "62 Restrict viewing status updates to logged in users only"
+        },
+        {
+            "id": 64,
+            "video_id": "N6zdDwek9Kw",
+            "video_title": "63 Test new private feed"
+        },
+        {
+            "id": 65,
+            "video_id": "Hcx3WzXzFlc",
+            "video_title": "64 Introduction to deploying our app to AWS"
+        },
+        {
+            "id": 66,
+            "video_id": "boKzI8r2tYs",
+            "video_title": "65 Pushing our project to GitHub"
+        },
+        {
+            "id": 67,
+            "video_id": "FzSqtOOaGKY",
+            "video_title": "66 Add deployment script and configs to our project"
+        },
+        {
+            "id": 68,
+            "video_id": "jMnmJou_xaM",
+            "video_title": "67 Create and launch an EC2 instance"
+        },
+        {
+            "id": 69,
+            "video_id": "zSAie6M0mPY",
+            "video_title": "68 Download and run server setup script"
+        },
+        {
+            "id": 70,
+            "video_id": "__wYLpJ0nGk",
+            "video_title": "69 Create superuser and test server"
+        },
+        {
+            "id": 71,
+            "video_id": "NJDNe7mcZeU",
+            "video_title": "70 Add domain to allowed list and push update"
+        },
+        {
+            "id": 72,
+            "video_id": "MNczFF1Txrw",
+            "video_title": "71 Test site on server"
+        },
+        {
+            "id": 73,
+            "video_id": "serqN87g6Tw",
+            "video_title": "72 Course outro"
+        }
+    ]
+}
