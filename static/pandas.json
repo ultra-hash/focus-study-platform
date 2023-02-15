@@ -1,0 +1,115 @@
+{
+    "path_name": "Pandas",
+    "data": [
+        {
+            "id": 1,
+            "video_id": "CmorAWRsCAw",
+            "video_title": "1 - What is Pandas python? Introduction and Installation"
+        },
+        {
+            "id": 2,
+            "video_id": "F6kmIpWWEdU",
+            "video_title": "2 - Dataframe Basics"
+        },
+        {
+            "id": 3,
+            "video_id": "3k0HbcUGErE",
+            "video_title": "3 - Different Ways Of Creating DataFrame"
+        },
+        {
+            "id": 4,
+            "video_id": "-0NwrcZOKhQ",
+            "video_title": "4 - Read Write Excel CSV File"
+        },
+        {
+            "id": 5,
+            "video_id": "EaGbS7eWSs0",
+            "video_title": "5 - Handle Missing Data: fillna, dropna, interpolate"
+        },
+        {
+            "id": 6,
+            "video_id": "XOxABiMhG2U",
+            "video_title": "6 - Handle Missing Data: replace function"
+        },
+        {
+            "id": 7,
+            "video_id": "Wb2Tp35dZ-I",
+            "video_title": "7 - Group By (Split Apply Combine)"
+        },
+        {
+            "id": 8,
+            "video_id": "WGOEFok1szA",
+            "video_title": "8 - Concat Dataframes"
+        },
+        {
+            "id": 9,
+            "video_id": "h4hOPGo4UVU",
+            "video_title": "9 - Merge Dataframes"
+        },
+        {
+            "id": 10,
+            "video_id": "xPPs59pn6qU",
+            "video_title": "10 - Pivot table"
+        },
+        {
+            "id": 11,
+            "video_id": "oY62o-tBHF4",
+            "video_title": "11 - Reshape dataframe using melt"
+        },
+        {
+            "id": 12,
+            "video_id": "BUOy4RUUepg",
+            "video_title": "12 - Stack Unstack"
+        },
+        {
+            "id": 13,
+            "video_id": "I_kUj-MfYys",
+            "video_title": "13 - Crosstab"
+        },
+        {
+            "id": 14,
+            "video_id": "M-4EpNdlSuY",
+            "video_title": "14 - Read Write Data From Database (read_sql, to_sql)"
+        },
+        {
+            "id": 15,
+            "video_id": "HNE0qHJ9A9o",
+            "video_title": "15 - Handle Large Datasets In Pandas | Memory Optimization Tips For Pandas"
+        },
+        {
+            "id": 16,
+            "video_id": "r0s4slGHwzE",
+            "video_title": "Pandas Time Series Analysis Part 1: DatetimeIndex and Resample"
+        },
+        {
+            "id": 17,
+            "video_id": "A9c7hGXQ5A8",
+            "video_title": "Pandas Time Series Analysis Part 2: date_range"
+        },
+        {
+            "id": 18,
+            "video_id": "Fo0IMzfcnQE",
+            "video_title": "Pandas Time Series Analysis 3: Holidays"
+        },
+        {
+            "id": 19,
+            "video_id": "igWjq3jtLYI",
+            "video_title": "Pandas Time Series Analysis 4: to_datetime"
+        },
+        {
+            "id": 20,
+            "video_id": "3l9YOS4y24Y",
+            "video_title": "Pandas Time Series Analysis 5: Period and PeriodIndex"
+        },
+        {
+            "id": 21,
+            "video_id": "9IW2GIJajLs",
+            "video_title": "Pandas Time Series Analysis 6: Timezone Handling"
+        },
+        {
+            "id": 22,
+            "video_id": "0lsmdNLNorY",
+            "video_title": "Pandas Time Series Analysis 6: Shifting and Lagging"
+        }
+    ]
+}
