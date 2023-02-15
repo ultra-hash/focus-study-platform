@@ -1,0 +1,105 @@
+{
+    "path_name": "Data Structures And Algorithms In Python",
+    "data": [
+        {
+            "id": 1,
+            "video_id": "_t2GVaQasRY",
+            "video_title": "1 - What are data structures?"
+        },
+        {
+            "id": 2,
+            "video_id": "IR_S8BC8KI0",
+            "video_title": "2 - Big O notation | Measuring time complexity"
+        },
+        {
+            "id": 3,
+            "video_id": "gDqQf4Ekr2A",
+            "video_title": "3 - Arrays"
+        },
+        {
+            "id": 4,
+            "video_id": "qp8u-frRAnU",
+            "video_title": "4 - Linked List"
+        },
+        {
+            "id": 5,
+            "video_id": "ea8BRGxGmlA",
+            "video_title": "5 - Hash Table"
+        },
+        {
+            "id": 6,
+            "video_id": "54iv1si4YCM",
+            "video_title": "6 - Collision Handling In Hash Table"
+        },
+        {
+            "id": 7,
+            "video_id": "zwb3GmNAtFk",
+            "video_title": "7 - Stack"
+        },
+        {
+            "id": 8,
+            "video_id": "rUUrmGKYwHw",
+            "video_title": "8 - Queue"
+        },
+        {
+            "id": 9,
+            "video_id": "4r_XR9fUPhQ",
+            "video_title": "9 - Tree (General Tree)"
+        },
+        {
+            "id": 10,
+            "video_id": "lFq5mYUWEBk",
+            "video_title": "10 - Binary Tree Part 1 | BST | Binary Search Tree"
+        },
+        {
+            "id": 11,
+            "video_id": "JnrbMQyGLiU",
+            "video_title": "11 - Binary Tree Part 2 | BST | Binary Search Tree"
+        },
+        {
+            "id": 12,
+            "video_id": "j0IYCyBdzfA",
+            "video_title": "12 - Graph Introduction"
+        },
+        {
+            "id": 13,
+            "video_id": "GnZ9ppr_zaI",
+            "video_title": "13 - Binary Search"
+        },
+        {
+            "id": 14,
+            "video_id": "ppmIOUIz4uI",
+            "video_title": "14 - Bubble Sort"
+        },
+        {
+            "id": 15,
+            "video_id": "5iSZ7mh_RAk",
+            "video_title": "15 - Quick Sort"
+        },
+        {
+            "id": 16,
+            "video_id": "K0zTIF3rm9s",
+            "video_title": "16 - Insertion Sort "
+        },
+        {
+            "id": 17,
+            "video_id": "nCNfu_zNhyI",
+            "video_title": "17 - Merge Sort"
+        },
+        {
+            "id": 18,
+            "video_id": "VxNr9Vudp4Y",
+            "video_title": "18 - Shell Sort"
+        },
+        {
+            "id": 19,
+            "video_id": "hhkLdjIimlw",
+            "video_title": "19 - Selection Sort in python"
+        },
+        {
+            "id": 20,
+            "video_id": "9bsK03SlmNM",
+            "video_title": "20 - Recursion"
+        }
+    ]
+}
