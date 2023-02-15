@@ -35,10 +35,42 @@
                 <h5>Distraction's free, Learning Path's</h5>
             </div>
             <div class="col-12 mt-5">
-                <a href="{% url 'api.path' 'python' %}" class="btn btn-success"> Python </a>
-                <a href="{% url 'api.path' 'git' %}" class="btn btn-primary"> Git </a>
-                <a href="{% url 'api.path' 'django' %}" class="btn btn-info"> Django </a>
-                <a href="{% url 'api.path' 'djangorestframework' %}" class="btn btn-danger"> Django Rest Framework </a>
+                <div>
+                    <a href="{% url 'api.path' 'python' %}">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/c/c3/20220821155028%21Python-logo-notext.svg" alt="Python Logo" width="200px" height="100px"/>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="{% url 'api.path' 'dsawithpython' %}"> 
+                        <h1>
+                           <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Competitive-Programming-1.jpg" alt="" width="200px" height="100px">
+                        </h1>
+                    </a>
+                </div>
+                
+                <div>
+                    <a href="{% url 'api.path' 'git' %}">
+                        <img src="https://miro.medium.com/max/1200/1*mtsk3fQ_BRemFidhkel3dA.png" alt="git" width="200px" height="100px" />
+                    </a>    
+                    <a href="{% url 'api.path' 'django' %}">
+                        <img src="https://static.djangoproject.com/img/logos/django-logo-negative.png" alt="django" width="200px" height="100px" />
+                    </a>
+                </div>
+                
+                
+                <div>
+                    <a href="{% url 'api.path' 'djangorestframework' %}">
+                        <img src="https://www.django-rest-framework.org/img/logo.png" alt="Django Rest Framework" width="200px" height="100px" /> 
+                    </a>
+                </div>
+                
+                
+                <div>
+                    <a href="{% url 'api.path' 'pandas' %}">
+                        <img src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="Pandas" width="200px" height="100px" /> 
+                    </a>
+                </div>
             </div>
         </div>
     </div>
