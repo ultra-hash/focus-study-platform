@@ -8,7 +8,7 @@ def home(request):
     return render(request, 'home.html', {})
 
 def path(reqest, path_name):
-    path_list = ['git', 'python', 'django', 'djangorestframework', 'dsawithpython', 'pandas']
+    path_list = ['git', 'python', 'django', 'djangorestframework', 'dsawithpython', 'pandas', 'java']
     if path_name in path_list:
         with open(f'{STATICFILES_DIRS[0]}/{path_name}.json', 'r') as file:
             json_data = json.load(file)
