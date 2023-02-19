@@ -25,6 +25,8 @@
                     <a class="nav-link" href="/path/git/">Git</a>
                     <a class="nav-link" href="/path/django/">Django</a>
                     <a class="nav-link" href="/path/djangorestframework/">Django Rest Framework</a>
+                    <a class="nav-link" href="/path/java/">Java</a>
+                    <a class="nav-link" href="/path/linearalgebra/">Linear Algebra</a>
                 </div>
             </div>
         </div>
@@ -32,7 +34,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 Learning-Path-Header d-flex p-2">
+            <div class="col-12 d-flex p-2">
                 <h1 class="flex-fill">{{ name_of_the_path }}</h1>
                 <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <span>
@@ -87,6 +89,10 @@
             </div>
             <div class="col-12 mt-3">
                 <h3 id="videotitle">Episode {{ list_of_videos.0.video_title }}</h3>
+            </div>
+            <div class="col-12 mt-3">
+                <h3>Notes</h3>
+                <textarea type="text" class="w-100" style="height: 120px; resize: none;"> </textarea>
             </div>
         </div>
     </div>
