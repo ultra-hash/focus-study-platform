@@ -1,0 +1,315 @@
+{
+    "path_name": "Javascript course",
+    "data": [
+        {
+            "id": 1,
+            "video_id": "2md4HQNRqJA",
+            "video_title": "1 - Welcome to new JavaScript course"
+        },
+        {
+            "id": 2,
+            "video_id": "papg2tsoFzg",
+            "video_title": "2 - Welcome to Javascript Course"
+        },
+        {
+            "id": 3,
+            "video_id": "BMKWdLX9w3M",
+            "video_title": "3 - What are Javascript engines"
+        },
+        {
+            "id": 4,
+            "video_id": "7z-VseyACaE",
+            "video_title": "4 - What ES version of javascript is good for us"
+        },
+        {
+            "id": 5,
+            "video_id": "ycLqC41TO1U",
+            "video_title": "5 - Variable and datatypes in javascript"
+        },
+        {
+            "id": 6,
+            "video_id": "Sb5_BIprKDs",
+            "video_title": "6 - Our first User Signup"
+        },
+        {
+            "id": 7,
+            "video_id": "WxyFRb0_eUQ",
+            "video_title": "7 - Operators in javascript | Calculate discount"
+        },
+        {
+            "id": 8,
+            "video_id": "nvKktNrJXcY",
+            "video_title": "8 - Type and Operator precedence in javascript"
+        },
+        {
+            "id": 9,
+            "video_id": "gx7N3QGrVWE",
+            "video_title": "9 - What are conditionals in javascript"
+        },
+        {
+            "id": 10,
+            "video_id": "uT9n7iIxEw8",
+            "video_title": "10 - Logical conditional Login in javascript"
+        },
+        {
+            "id": 11,
+            "video_id": "R0HJtkYtjwk",
+            "video_title": "11 - Ternary operator in javascript"
+        },
+        {
+            "id": 12,
+            "video_id": "_wyPpPlFwrI",
+            "video_title": "12 - Switch for role based access in javascript"
+        },
+        {
+            "id": 13,
+            "video_id": "0O-9uXmqbFI",
+            "video_title": "13 - Coercion and falsy values in JavaScript"
+        },
+        {
+            "id": 14,
+            "video_id": "TwDHINjr1AQ",
+            "video_title": "14 - Basics of functions in javascript"
+        },
+        {
+            "id": 15,
+            "video_id": "hEX8ohGSOyc",
+            "video_title": "15 - Functions in variable | User Role in javascript"
+        },
+        {
+            "id": 16,
+            "video_id": "_JMXlGt3OSo",
+            "video_title": "16 - Understand the context in javascript"
+        },
+        {
+            "id": 17,
+            "video_id": "9Ta1umc3tkQ",
+            "video_title": "17 - Code hoisting in javascript"
+        },
+        {
+            "id": 18,
+            "video_id": "vGGOOYOXoQ4",
+            "video_title": "18 - Scope chaining in javascript"
+        },
+        {
+            "id": 19,
+            "video_id": "lTACw0-yAzc",
+            "video_title": "19 - Light intro to THIS in javascript"
+        },
+        {
+            "id": 20,
+            "video_id": "Lr-uGVNM8Ko",
+            "video_title": "20 - Introduction to Array in javascript"
+        },
+        {
+            "id": 21,
+            "video_id": "Tny4_-QjNHg",
+            "video_title": "21 - Callback and arrow function introduction in array"
+        },
+        {
+            "id": 22,
+            "video_id": "2k6osJPXsgk",
+            "video_title": "22 - Fill and Filter in Array in Javascript"
+        },
+        {
+            "id": 23,
+            "video_id": "t1qDSAUclzI",
+            "video_title": "23 - Slice and Splice in Javascript"
+        },
+        {
+            "id": 24,
+            "video_id": "HPddGlSIV3M",
+            "video_title": "24 - Objects in Javascript"
+        },
+        {
+            "id": 25,
+            "video_id": "gqBaQHXHwm0",
+            "video_title": "25 - Methods and objects in javascript"
+        },
+        {
+            "id": 26,
+            "video_id": "26QWcjTdJGM",
+            "video_title": "26 - For loop basics in Javascript"
+        },
+        {
+            "id": 27,
+            "video_id": "kCl3W4kR4-c",
+            "video_title": "27 - While and do while loops in javascript"
+        },
+        {
+            "id": 28,
+            "video_id": "QAFjcAxcNcY",
+            "video_title": "28 - For Each loop in javascript"
+        },
+        {
+            "id": 29,
+            "video_id": "NlagmmCwOU4",
+            "video_title": "29 - For in and for of loop in javascript"
+        },
+        {
+            "id": 30,
+            "video_id": "jTPt5XO7KoU",
+            "video_title": "30 - Confusing part of THIS in javascript"
+        },
+        {
+            "id": 31,
+            "video_id": "GkXAGe7SLm0",
+            "video_title": "31 - What is DOM"
+        },
+        {
+            "id": 32,
+            "video_id": "nkOL-mZjq60",
+            "video_title": "32 - How to grab web elements in javascript"
+        },
+        {
+            "id": 33,
+            "video_id": "eUm1evTJ2Z8",
+            "video_title": "33 - A counter project in javascript"
+        },
+        {
+            "id": 34,
+            "video_id": "NONbkVx5FAM",
+            "video_title": "34 - Get Computed properties in javascript"
+        },
+        {
+            "id": 35,
+            "video_id": "aBnsO6QWGEY",
+            "video_title": "35 - Event listener in javascript"
+        },
+        {
+            "id": 36,
+            "video_id": "Uhp9xPCILno",
+            "video_title": "36 - New keyword in Javascript"
+        },
+        {
+            "id": 37,
+            "video_id": "w9CaKd2bq-E",
+            "video_title": "37 - What is proto in javascript"
+        },
+        {
+            "id": 38,
+            "video_id": "ko5tv0tP6XA",
+            "video_title": "38 - Better code with object chain in javascript"
+        },
+        {
+            "id": 39,
+            "video_id": "IH7TJla_rwY",
+            "video_title": "39 - Objects from MDN docs"
+        },
+        {
+            "id": 40,
+            "video_id": "XRwgc6ERk_g",
+            "video_title": "40 - Self Executing Anonymous Function and functional programming"
+        },
+        {
+            "id": 41,
+            "video_id": "qT5S7GgIioE",
+            "video_title": "41 - Lexical scoping in javascript"
+        },
+        {
+            "id": 42,
+            "video_id": "bC-ilFHSt4s",
+            "video_title": "42 - Closure in javascript"
+        },
+        {
+            "id": 43,
+            "video_id": "QoUboMfIemw",
+            "video_title": "43 - Borrow a method using bind"
+        },
+        {
+            "id": 44,
+            "video_id": "fPBPlNABfpk",
+            "video_title": "44 - Get to know node Elements in Javascript"
+        },
+        {
+            "id": 45,
+            "video_id": "fEj0IsPa37M",
+            "video_title": "45 - Generating elements and Text node in DOM"
+        },
+        {
+            "id": 46,
+            "video_id": "r2YoiwVmAa0",
+            "video_title": "46 - Solution of Scope problem in javascript"
+        },
+        {
+            "id": 47,
+            "video_id": "vXhbV_xgkMo",
+            "video_title": "47 - Template literals in javascript"
+        },
+        {
+            "id": 48,
+            "video_id": "fMfMdE3wifs",
+            "video_title": "48 - Maps in javascript"
+        },
+        {
+            "id": 49,
+            "video_id": "brtUfHte9uc",
+            "video_title": "49 - Destructure the data in javascript"
+        },
+        {
+            "id": 50,
+            "video_id": "DoIGxx7P-ps",
+            "video_title": "50 - Spread and REST operators in Javascript"
+        },
+        {
+            "id": 51,
+            "video_id": "dQCdwX0p_tc",
+            "video_title": "51 - Classes and module exports in javascript"
+        },
+        {
+            "id": 52,
+            "video_id": "mGR2nH1HIR4",
+            "video_title": "52 - Private props getters and setters in javascript"
+        },
+        {
+            "id": 53,
+            "video_id": "FX2hGgUPbeY",
+            "video_title": "53 - Inheritance in javascript"
+        },
+        {
+            "id": 54,
+            "video_id": "WvTMIKHvPxU",
+            "video_title": "54 - Event loop | Will javascript wait?"
+        },
+        {
+            "id": 55,
+            "video_id": "Gjbr21JLfgg",
+            "video_title": "55 - Promise async and await in javascript"
+        },
+        {
+            "id": 56,
+            "video_id": "wjbsRjf8QN8",
+            "video_title": "56 - How to Handle API in javascript"
+        },
+        {
+            "id": 57,
+            "video_id": "ksV07bvCR3c",
+            "video_title": "57 - Get to know game files"
+        },
+        {
+            "id": 58,
+            "video_id": "K0KQP7qfrYo",
+            "video_title": "58 - Logic of game | javascript"
+        },
+        {
+            "id": 59,
+            "video_id": "ZqOUYVjllVE",
+            "video_title": "59 - Fixing the bug in game | Javascript"
+        },
+        {
+            "id": 60,
+            "video_id": "YwHJCTXg6Es",
+            "video_title": "60 - What is new in Javascript 2021"
+        },
+        {
+            "id": 61,
+            "video_id": "Ex652LPfUdA",
+            "video_title": "61 - Why iife appears in javascript interviews"
+        },
+        {
+            "id": 62,
+            "video_id": "DlYlFpGEghQ",
+            "video_title": "62 - Quirky Behaviour of javascript"
+        }
+    ]
+}
