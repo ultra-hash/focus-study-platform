@@ -7,30 +7,30 @@ To stay focused and discractions free.
 
 Currerntly added paths and upcomming paths
 
-- [x] - Python
-- [x] - Java
-- [x] - Django
-- [x] - DjangoRestFrameWork
-- [x] - algorithoms with Python
-- [x] - Git
-- [x] - Pandas
-- [x] - algebra (maths)
-- [ ] - C++
-- [ ] - C#
-- [ ] - MySQL
-- [ ] - Bash
-- [ ] - Docker
-- [ ] - Jenkins
-- [ ] - kuberneties
-- [ ] - Ansible
-- [ ] - HTML
-- [ ] - CSS
-- [ ] - Numpy
-- [ ] - React
-- [ ] - Node
-- [ ] - Angular
-- [ ] - MongoDB
-- [ ] - Redis
-- [ ] - celery
-- [ ] - RabbitMQ
-- [ ] 
+- [x] Python
+- [x] Java
+- [x] Django
+- [x] DjangoRestFrameWork
+- [x] algorithoms with Python
+- [x] Git
+- [x] Pandas
+- [x] algebra (maths)
+- [ ] C++
+- [ ] C#
+- [ ] MySQL
+- [ ] Bash
+- [ ] Docker
+- [ ] Jenkins
+- [ ] kuberneties
+- [ ] Ansible
+- [ ] HTML
+- [ ] CSS
+- [ ] Numpy
+- [ ] React
+- [ ] Node
+- [ ] Angular
+- [ ] MongoDB
+- [ ] Redis
+- [ ] celery
+- [ ] RabbitMQ
+
