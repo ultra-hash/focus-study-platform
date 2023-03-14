@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto">
                     <a class="nav-link" aria-current="page" href="{% url 'api.home' %}">Home</a>
-                    <a class="nav-link" href="/path/python/">Python</a>
-                    <a class="nav-link" href="/path/git/">Git</a>
-                    <a class="nav-link" href="/path/django/">Django</a>
-                    <a class="nav-link" href="/path/djangorestframework/">Django Rest Framework</a>
-                    <a class="nav-link" href="/path/java/">Java</a>
-                    <a class="nav-link" href="/path/linearalgebra/">Linear Algebra</a>
-                    <a class="nav-link" href="/path/javascript/">Javascript</a>
+                    <a class="nav-link" href="{% url 'api.path' 'python' %}">Python</a>
+                    <a class="nav-link" href="{% url 'api.path' 'git' %}">Git</a>
+                    <a class="nav-link" href="{% url 'api.path' 'django' %}">Django</a>
+                    <a class="nav-link" href="{% url 'api.path' 'djangorestframework' %}">Django Rest Framework</a>
+                    <a class="nav-link" href="{% url 'api.path' 'java' %}">Java</a>
+                    <a class="nav-link" href="{% url 'api.path' 'linearalgebra' %}">Linear Algebra</a>
+                    <a class="nav-link" href="{% url 'api.path' 'javascript' %}">Javascript</a>
                 </div>
             </div>
         </div>
