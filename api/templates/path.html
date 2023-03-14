@@ -93,7 +93,8 @@
             </div>
             <div class="col-12 mt-3">
                 <h3>Notes</h3>
-                <textarea type="text" class="w-100" style="height: 120px; resize: none;"> </textarea>
+                <textarea type="text" id="notes" class="w-100" style="height: 120px; resize: none;"> </textarea>
+                <button class="btn btn-primary" id="saveBtn">Save</button>
             </div>
         </div>
     </div>
@@ -107,10 +108,34 @@
     mark as complete -->
 
     <script>
+        let notes = document.getElementById('notes');
+        let saveBtn = document.getElementById('saveBtn');
+        let videoPlayer = document.getElementById('videoplayer');
+
+        function getVideoIdFromPlayer(){
+            let video_id = videoPlayer.src;
+            video_id = video_id.slice("https://www.youtube-nocookie.com/embed/".length);
+            // console.log(video_id, 'from getVideoID');
+            return video_id;
+        }
+
+        function loadNotes(video_id) {
+            let userNotes = localStorage.getItem(video_id)
+            console.log(video_id);
+
+            if (userNotes !== null){
+                notes.value = userNotes;
+            } else {
+                notes.value = "";
+            }
+        };
+
         function play(id) {
             const domain = "https://www.youtube-nocookie.com/embed/";
             document.getElementById("videoplayer").src = domain + id.title;
             document.getElementById("videotitle").innerHTML = "Episode " + id.innerHTML;
+            loadNotes(id.title);
+            
         }
 
         function item(id) {
@@ -139,12 +164,26 @@
             }
         }
 
-        setInterval(function() {
-            const element = document.getElementsByClassName(".ytp-scrubber-container")[0];
-            console.log(element)
-        }, 1000);
-    </script>
+        // setInterval(function() {
+        //     const element = document.getElementsByClassName(".ytp-scrubber-container")[0];
+        //     console.log(element)
+        // }, 1000);
 
+
+        
+
+        saveBtn.addEventListener('click', function(){
+            let video_id = getVideoIdFromPlayer();
+            let userNotes = notes.value;
+            localStorage.setItem(video_id, userNotes);
+            console.log('saving');
+        });
+
+        
+        loadNotes(getVideoIdFromPlayer());
+        
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
